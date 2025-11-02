@@ -1,14 +1,14 @@
-# Air-Mouse
+# #Air-Mouse
 Developed a wireless air mouse using an ESP32 microcontroller and MPU6050 motion sensor to control computer cursor movements through hand gestures. Implemented sensor data processing and Bluetooth communication for seamless motion-based control.
 
-# 🖱️ Air Mouse using ESP32 and MPU6050
+#  #Air Mouse using ESP32 and MPU6050
 
-## 📘 Project Overview
+##  #Project Overview
 The **Air Mouse** is an innovative project that transforms hand gestures into mouse movements using an **ESP32 microcontroller** and an **MPU6050 motion sensor**. The system captures real-time accelerometer and gyroscope data to control the cursor wirelessly via Bluetooth, offering a hands-free and intuitive user experience.
 
 ---
 
-## ⚙️ Features
+##  #Features
 - Motion-controlled wireless mouse  
 - Bluetooth connectivity with computers  
 - Real-time accelerometer and gyroscope data processing  
@@ -17,7 +17,7 @@ The **Air Mouse** is an innovative project that transforms hand gestures into mo
 
 ---
 
-## 🧠 Working Principle
+##  #Working Principle
 1. The **MPU6050** sensor detects the orientation and movement of the hand.  
 2. The **ESP32** processes the sensor data using motion algorithms.  
 3. The ESP32 transmits cursor control signals via **Bluetooth HID (Human Interface Device)**.  
@@ -25,7 +25,7 @@ The **Air Mouse** is an innovative project that transforms hand gestures into mo
 
 ---
 
-## 🪛 Hardware Components
+##  #Hardware Components
 | Component | Description |
 |------------|-------------|
 | ESP32 | Wi-Fi and Bluetooth-enabled microcontroller |
@@ -35,7 +35,7 @@ The **Air Mouse** is an innovative project that transforms hand gestures into mo
 
 ---
 
-## 🧩 Circuit Connections
+##  #Circuit Connections
 | ESP32 Pin | MPU6050 Pin |
 |------------|--------------|
 | 3.3V | VCC |
@@ -45,7 +45,7 @@ The **Air Mouse** is an innovative project that transforms hand gestures into mo
 
 ---
 
-## 💻 Software & Libraries
+##  #Software & Libraries
 - **Arduino IDE**
 - **ESP32 Board Package**
 - **Wire.h** for I2C communication  
@@ -54,7 +54,7 @@ The **Air Mouse** is an innovative project that transforms hand gestures into mo
 
 ---
 
-## 🚀 Setup Instructions
+##  #Setup Instructions
 1. Install **Arduino IDE** and add the **ESP32 board** via Board Manager.  
 2. Install required libraries (`MPU6050`, `Wire`, `BleMouse`).  
 3. Upload the program to your ESP32.  
@@ -63,7 +63,7 @@ The **Air Mouse** is an innovative project that transforms hand gestures into mo
 
 ---
 
-## 📊 Applications
+##  #Applications
 - Gesture-controlled computer interface  
 - Smart presentation controller  
 - Gaming or VR input device  
@@ -71,14 +71,14 @@ The **Air Mouse** is an innovative project that transforms hand gestures into mo
 
 ---
 
-## 🧑‍💻 Author
+##  #Author
 **Suyash Sachin Barad**  
 📍 Pune, Maharashtra, India  
 🔗 [GitHub](https://github.com/suyashbarad) | [LinkedIn](https://www.linkedin.com/in/suyash-sachin-barad-796b6534b)
 
 ---
 
-## 📜 License
+##  #License
 This project is open-source and available under the **MIT License**.
 
 ---
